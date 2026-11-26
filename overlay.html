@@ -2,42 +2,36 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>Overlay Portrait Auto-Fit Sci-Fi Retro Pop Art</title>
+<title>Overlay Cek HP Sci-Fi Pop Art</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;font-family:"Arial Black",Impact,sans-serif}
-html,body{width:100vw;height:100vh;overflow:hidden;background:transparent!important;color:#111;user-select:none}
-.stage{width:100%;height:100%;display:flex;flex-direction:column;justify-content:space-between;padding:3.2vw;background:transparent;transform:translateZ(0)}
+html,body{width:100vw;height:100vh;overflow:hidden;background:transparent!important;color:#111}
+.stage{width:100%;height:100%;display:flex;flex-direction:column;padding:3.2vw;background:transparent}
 .header{display:flex;align-items:center;justify-content:space-between;gap:1.5vw;background:#ffde00;border:0.55vw solid #111;border-radius:2.5vw;padding:1.6vw 2.4vw;box-shadow:1vw 1vw 0 #ff2a85,1.5vw 1.5vw 0 #111}
 .badge{background:#ff2a85;color:#fff;border:0.35vw solid #111;border-radius:1.4vw;padding:0.5vw 1.4vw;font-size:2vw;display:flex;align-items:center;gap:0.8vw;box-shadow:0.4vw 0.4vw 0 #111;flex-shrink:0}
-.dot{width:1.4vw;height:1.4vw;border-radius:50%;background:#00f0ff;border:0.3vw solid #111;animation:blink .8s cubic-bezier(.4,0,.6,1) infinite}
+.dot{width:1.4vw;height:1.4vw;border-radius:50%;background:#00f0ff;border:0.3vw solid #111;animation:blink .8s infinite}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
-.title{font-size:2.5vw;color:#111;letter-spacing:.3px;text-transform:uppercase;text-align:center}
+.title{font-size:2.4vw;color:#111;text-transform:uppercase;text-align:center}
 .sub-tag{background:#00f0ff;border:0.35vw solid #111;border-radius:1.4vw;padding:0.5vw 1.4vw;font-size:1.7vw;box-shadow:0.4vw 0.4vw 0 #111;white-space:nowrap;flex-shrink:0}
 
-.island{width:100%;flex:1;margin:2.2vh 0;background:#ffde00;background-image:radial-gradient(#ff2a85 0.25vw,transparent 0.25vw);background-size:1.7vw 1.7vw;border:0.55vw solid #111;border-radius:3.2vw;padding:2vw;box-shadow:1vw 1vw 0 #00f0ff,1.5vw 1.5vw 0 #111;display:flex;flex-direction:column;overflow:hidden}
-.pill{display:flex;align-items:center;gap:1.4vw;background:#fff;border:0.5vw solid #111;border-radius:2vw;padding:1.1vw 2vw;box-shadow:0.6vw 0.6vw 0 #ff2a85;flex-shrink:0}
-.lens-cam{width:2.1vw;height:2.1vw;border-radius:50%;background:#00f0ff;border:0.4vw solid #111;flex-shrink:0}
-input{flex:1;background:transparent;border:none;color:#111;font-size:2.1vw;outline:none;font-family:sans-serif;font-weight:800;min-width:0}
-input::placeholder{color:#666}
-.clr{background:#ff2a85;border:0.35vw solid #111;color:#fff;width:3.4vw;height:3.4vw;border-radius:0.8vw;cursor:pointer;display:none;font-size:1.6vw;font-weight:900;flex-shrink:0}
-.rst{background:#00f0ff;border:0.35vw solid #111;color:#111;font-weight:900;cursor:pointer;padding:0.6vw 1.4vw;border-radius:1.1vw;font-size:1.7vw;box-shadow:0.3vw 0.3vw 0 #111;flex-shrink:0}
-.list{display:flex;flex-direction:column;gap:1vh;margin-top:1.5vh}
-.row{display:grid;grid-template-columns:5vw 5.2vw minmax(0,1fr) 3.4vw 4.2vw 24vw 3.4vw;align-items:center;gap:1.4vw;background:#fff;border:0.4vw solid #111;border-radius:2vw;padding:0.8vh 1.6vw;box-shadow:0.55vw 0.55vw 0 #111;animation:pop .18s cubic-bezier(.16,1,.3,1)}
-@keyframes pop{from{transform:translate3d(0,-10px,0) scale(.96);opacity:0}to{transform:translate3d(0,0,0) scale(1);opacity:1}}
-.num{font-size:1.7vw;color:#fff;background:#ff2a85;border:0.3vw solid #111;border-radius:0.8vw;padding:0.3vw 0;text-align:center;box-shadow:0.3vw 0.3vw 0 #111}
-.av{width:5vw;height:5vw;border-radius:50%;border:0.35vw solid #111;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:2.5vw;box-shadow:0.3vw 0.3vw 0 #00f0ff}
+.island{width:100%;margin-top:2vh;background:#ffde00;background-image:radial-gradient(#ff2a85 0.25vw,transparent 0.25vw);background-size:1.7vw 1.7vw;border:0.55vw solid #111;border-radius:3.2vw;padding:2vw;box-shadow:1vw 1vw 0 #00f0ff,1.5vw 1.5vw 0 #111;display:flex;flex-direction:column}
+.pill{display:flex;align-items:center;gap:1.2vw;background:#fff;border:0.5vw solid #111;border-radius:2vw;padding:1vw 1.8vw;box-shadow:0.6vw 0.6vw 0 #ff2a85}
+.lens-cam{width:2vw;height:2vw;border-radius:50%;background:#00f0ff;border:0.4vw solid #111;flex-shrink:0}
+input{flex:1;background:transparent;border:none;color:#111;font-size:2vw;outline:none;font-family:sans-serif;font-weight:800;min-width:0;user-select:text}
+.go{background:#10b981;border:0.35vw solid #111;color:#fff;font-weight:900;cursor:pointer;padding:0.5vw 1.3vw;border-radius:1vw;font-size:1.6vw;box-shadow:0.3vw 0.3vw 0 #111}
+.rst{background:#00f0ff;border:0.35vw solid #111;color:#111;font-weight:900;cursor:pointer;padding:0.5vw 1.2vw;border-radius:1vw;font-size:1.6vw;box-shadow:0.3vw 0.3vw 0 #111}
+.list{display:flex;flex-direction:column;gap:0.9vh;margin-top:1.4vh}
+.row{display:grid;grid-template-columns:5vw 5.2vw minmax(0,1fr) 3.4vw 4.2vw 24vw 3.4vw;align-items:center;gap:1.3vw;background:#fff;border:0.4vw solid #111;border-radius:2vw;padding:0.7vh 1.5vw;box-shadow:0.5vw 0.5vw 0 #111}
+.num{font-size:1.7vw;color:#fff;background:#ff2a85;border:0.3vw solid #111;border-radius:0.8vw;padding:0.3vw 0;text-align:center}
+.av{width:5vw;height:5vw;border-radius:50%;border:0.35vw solid #111;overflow:hidden;display:flex;align-items:center;justify-content:center;font-size:2.5vw}
 .av img{width:100%;height:100%;object-fit:cover}
-.name{font-family:Georgia,serif;font-size:2.5vw;font-weight:900;color:#111;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase}
-.chk{background:#00f0ff;color:#111;border:0.3vw solid #111;width:2.8vw;height:2.8vw;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5vw;font-weight:900;box-shadow:0.3vw 0.3vw 0 #ff2a85}
-.hp{width:3.6vw;height:5.8vw;border-radius:0.7vw;border:0.35vw solid #111;padding:0.4vw;display:flex;flex-wrap:wrap;align-content:flex-start;gap:0.3vw;box-shadow:0.4vw 0.4vw 0 #ffde00}
+.name{font-family:Georgia,serif;font-size:2.4vw;font-weight:900;color:#111;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase}
+.chk{background:#00f0ff;color:#111;border:0.3vw solid #111;width:2.8vw;height:2.8vw;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5vw;font-weight:900}
+.hp{width:3.6vw;height:5.8vw;border-radius:0.7vw;border:0.35vw solid #111;padding:0.4vw;display:flex;flex-wrap:wrap;align-content:flex-start;gap:0.3vw}
 .cam-dot{width:0.75vw;height:0.75vw;border-radius:50%;background:#111}
 .brand{font-size:1.4vw;color:#ff2a85;font-family:sans-serif;font-weight:900;text-transform:uppercase}
 .model{font-size:1.8vw;color:#111;font-family:sans-serif;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.del{background:#ffde00;border:0.3vw solid #111;color:#111;width:3.1vw;height:3.1vw;border-radius:0.8vw;cursor:pointer;font-size:1.4vw;font-weight:900;box-shadow:0.3vw 0.3vw 0 #111}
-
-.cam-frame{position:relative;width:100%;height:32vh;background:#00ff00;border:0.65vw solid #111;border-radius:3.5vw;box-shadow:1.1vw 1.1vw 0 #00f0ff,1.6vw 1.6vw 0 #111;flex-shrink:0}
-.cam-label{position:absolute;top:-2.2vw;left:3vw;background:#ff2a85;color:#fff;border:0.4vw solid #111;border-radius:1.4vw;padding:0.3vw 1.6vw;font-size:1.8vw;box-shadow:0.4vw 0.4vw 0 #111}
-.cam-tag{position:absolute;bottom:1.6vw;right:2.2vw;background:#111;color:#ffde00;border:0.3vw solid #00f0ff;border-radius:1.1vw;padding:0.4vw 1.4vw;font-size:1.5vw;letter-spacing:.5px}
+.del{background:#ffde00;border:0.3vw solid #111;color:#111;width:3.1vw;height:3.1vw;border-radius:0.8vw;cursor:pointer;font-size:1.4vw;font-weight:900}
 </style>
 </head>
 <body>
@@ -52,21 +46,16 @@ var bdg=mk("div","badge",hdr);mk("div","dot",bdg);mk("span","",bdg).textContent=
 mk("div","title",hdr).textContent="DETEKTOR HP SULTAN vs KENTANG!";
 mk("div","sub-tag",hdr).textContent="BUAT HIBURAN";
 
-var isl=mk("div","island",stg),pill=mk("div","pill",isl);
-mk("div","lens-cam",pill);
-var inp=mk("input","",pill);inp.placeholder="KETIK NAMA / USERNAME DI CHAT...";
-var clr=mk("button","clr",pill);clr.textContent="✕";
-var rst=mk("span","rst",pill);rst.textContent="RESET";
+var isl=mk("div","island",stg),form=mk("form","pill",isl);
+mk("div","lens-cam",form);
+var inp=mk("input","",form);inp.type="text";inp.placeholder="KETIK NAMA / USERNAME DI CHAT...";
+var go=mk("button","go",form);go.type="submit";go.textContent="CEK";
+var rst=mk("button","rst",form);rst.type="button";rst.textContent="RESET";
 var lst=mk("div","list",isl);
-
-var cam=mk("div","cam-frame",stg);
-mk("div","cam-label",cam).textContent="DROP NAMA KALIAN DI KOMENTAR!";
-mk("div","cam-tag",cam).textContent="GIMMICK HIBURAN • JANGAN BAPER";
 
 var hp=[
 {b:"Apple",m:"iPhone 18 Pro Max (1TB)",c:"#00f0ff"},{b:"Apple",m:"iPhone 17 Pro Max",c:"#ff2a85"},
-{b:"Apple",m:"iPhone 16 Pro",c:"#ffde00"},{b:"Samsung",m:"Galaxy S26 Ultra 5G",c:"#a855f7"},
-{b:"Samsung",m:"Galaxy S25 Ultra",c:"#38bdf8"},{b:"Samsung",m:"Galaxy Z Fold7 5G",c:"#f43f5e"},
+{b:"Samsung",m:"Galaxy S26 Ultra 5G",c:"#a855f7"},{b:"Samsung",m:"Galaxy Z Fold7 5G",c:"#f43f5e"},
 {b:"Xiaomi",m:"17T Pro Leica Edition",c:"#3b82f6"},{b:"Xiaomi",m:"15 Ultra Photography",c:"#f97316"},
 {b:"Realme",m:"GT 7 Pro Racing",c:"#10b981"},{b:"OPPO",m:"Find X9 Pro Hasselblad",c:"#ec4899"},
 {b:"vivo",m:"X300 Pro Zeiss Edition",c:"#6366f1"},{b:"ASUS",m:"ROG Phone 9 Pro Edition",c:"#ef4444"}
@@ -75,36 +64,32 @@ var cw=["siti","ayu","putri","dini","risda","amira","dewi","rani","nisa","fitri"
 var avCw=["👩🏻","👩🏽","👧🏻","🧕🏻"],avLk=["👨🏻","👨🏽","👦🏻","🧔🏻"],bgAv=["#00f0ff","#ff2a85","#ffde00","#a855f7","#10b981"];
 var data=[],no=1;
 
-inp.oninput=function(){clr.style.display=inp.value?"block":"none";};
-clr.onclick=function(){inp.value="";clr.style.display="none";inp.focus();};
-rst.onclick=function(){data=[];no=1;inp.value="";clr.style.display="none";inp.focus();render();};
-inp.onkeydown=function(e){
-if((e.key==="Enter"||e.keyCode===13)&&inp.value.trim()){
-e.preventDefault();
-var n=inp.value.trim(),low=n.toLowerCase(),isCw=false;
-for(var i=0;i<cw.length;i++)if(low.indexOf(cw[i])!==-1)isCw=true;
-if(!isCw&&/[aiu]$/.test(low.replace(/[^a-z]/g,"")))isCw=true;
-var fb=isCw?avCw[Math.floor(Math.random()*avCw.length)]:avLk[Math.floor(Math.random()*avLk.length)];
-var bg=bgAv[Math.floor(Math.random()*bgAv.length)],p=hp[Math.floor(Math.random()*hp.length)];
-data.unshift({no:no++,n:n,img:"https://unavatar.io"+encodeURIComponent(n.replace(/^@/,"").toLowerCase())+"?fallback=false",fb:fb,bg:bg,b:p.b,m:p.m,c:p.c});
-if(no>1000)no=1;if(data.length>7)data.length=7;
-inp.value="";clr.style.display="none";inp.focus();
-render();
+function proses(){
+  var n=inp.value.trim();if(!n)return;
+  var low=n.toLowerCase(),isCw=false;
+  for(var i=0;i<cw.length;i++)if(low.indexOf(cw[i])!==-1)isCw=true;
+  if(!isCw&&/[aiu]$/.test(low.replace(/[^a-z]/g,"")))isCw=true;
+  var fb=isCw?avCw[Math.floor(Math.random()*avCw.length)]:avLk[Math.floor(Math.random()*avLk.length)];
+  var bg=bgAv[Math.floor(Math.random()*bgAv.length)],p=hp[Math.floor(Math.random()*hp.length)];
+  data.unshift({no:no++,n:n,img:"https://unavatar.io"+encodeURIComponent(n.replace(/^@/,"").toLowerCase())+"?fallback=false",fb:fb,bg:bg,b:p.b,m:p.m,c:p.c});
+  if(no>1000)no=1;if(data.length>7)data.length=7;
+  inp.value="";inp.focus();render();
 }
-};
+rst.onclick=function(){data=[];no=1;inp.value="";inp.focus();render();};
+form.onsubmit=function(e){e.preventDefault();proses();};
 
 function render(){
-lst.innerHTML="";
-data.forEach(function(v,idx){
-var row=mk("div","row",lst);
-mk("div","num",row).textContent=v.no;
-var av=mk("div","av",row);av.style.background=v.bg;
-var im=mk("img","",av);im.src=v.img;im.onerror=function(){av.innerHTML="";av.textContent=v.fb;};
-mk("div","name",row).textContent=v.n;mk("div","chk",row).textContent="✓";
-var ph=mk("div","hp",row);ph.style.background=v.c;for(var c=0;c<3;c++)mk("div","cam-dot",ph);
-var dev=mk("div","",row);mk("div","brand",dev).textContent=v.b;mk("div","model",dev).textContent=v.m;
-var del=mk("button","del",row);del.textContent="✕";del.onclick=function(){data.splice(idx,1);render();};
-});
+  lst.innerHTML="";
+  data.forEach(function(v,idx){
+    var row=mk("div","row",lst);
+    mk("div","num",row).textContent=v.no;
+    var av=mk("div","av",row);av.style.background=v.bg;
+    var im=mk("img","",av);im.src=v.img;im.onerror=function(){av.innerHTML="";av.textContent=v.fb;};
+    mk("div","name",row).textContent=v.n;mk("div","chk",row).textContent="✓";
+    var ph=mk("div","hp",row);ph.style.background=v.c;for(var c=0;c<3;c++)mk("div","cam-dot",ph);
+    var dev=mk("div","",row);mk("div","brand",dev).textContent=v.b;mk("div","model",dev).textContent=v.m;
+    var del=mk("button","del",row);del.type="button";del.textContent="✕";del.onclick=function(){data.splice(idx,1);render();};
+  });
 }
 </script>
 </body>
